@@ -179,11 +179,11 @@ const SignUp = () => {
                             </div>
                         </div>
 
-                        <button className='bg-red-600 hover:bg-red-700 text-white px-6 py-2 w-full max-w-[150px] rounded-full hover:scale-110 transition-all mx-auto block mt-6'>Sign Up</button>
+                        <button className='bg-[#9e1e64] hover:bg-[#8c1858] text-white px-6 py-2 w-full max-w-[150px] rounded-full hover:scale-110 transition-all mx-auto block mt-6'>Sign Up</button>
 
                     </form>
 
-                    <p className='my-5'>Already have account ? <Link to={"/login"} className=' text-red-600 hover:text-red-700 hover:underline'>Login</Link></p>
+                    <p className='my-5'>Already have account ? <Link to={"/login"} className=' text-[#9e1e64] hover:text-[#8c1858] hover:underline'>Login</Link></p>
             </div>
 
 

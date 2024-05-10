@@ -11,6 +11,7 @@ import CategoryProduct from '../pages/CategoryProduct'
 import ProductDetails from '../pages/ProductDetails'
 import Cart from '../pages/Cart'
 import SearchProduct from '../pages/SearchProduct'
+import ProfileScreen from '../components/ProfileScreen'
 
 const router = createBrowserRouter([
     {
@@ -28,6 +29,10 @@ const router = createBrowserRouter([
             {
                 path : "forgot-password",
                 element : <ForgotPassowrd/>
+            },
+            {
+                path : "profile",
+                element : <ProfileScreen/>
             },
             {
                 path : "sign-up",
